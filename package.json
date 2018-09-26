@@ -8,8 +8,8 @@
     "build": "cross-env NODE_ENV=production && gulp build-browser && gulp build-node",
     "test": "npm run lint",
     "lint": "eslint \"src/**/*.js\"",
-    "push": "./scripts/push.sh",
-    "pull": "./scripts/pull.sh"
+    "push": "git add . ; git commit -m 'ready' ; git push origin dev",
+    "pull": "git pull origin dev"
   },
   "repository": {
     "type": "git",
