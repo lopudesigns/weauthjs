@@ -1,6 +1,6 @@
 {
   "name": "weauthjs",
-  "version": "1.1.153",
+  "version": "1.1.154",
   "description": "WeYouMe Protocol Javascript SDK Library",
   "main": "lib/index.js",
   "scripts": {
